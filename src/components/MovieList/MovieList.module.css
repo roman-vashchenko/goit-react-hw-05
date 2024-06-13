@@ -1,3 +1,5 @@
 .item a {
+  display: block;
   color: blue;
+  margin-left: 10px;
 }

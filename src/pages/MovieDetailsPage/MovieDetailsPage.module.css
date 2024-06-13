@@ -1,0 +1,41 @@
+.mainInformation {
+  display: flex;
+  gap: 35px;
+  border-bottom: 1px solid;
+  padding: 25px 10px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.score {
+  margin-bottom: 50px;
+}
+
+.overview {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.overviewText {
+  margin-bottom: 50px;
+}
+
+.genres {
+  font-weight: 700;
+}
+
+.genre {
+  margin-right: 15px;
+}
+
+.btnBack {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+}
