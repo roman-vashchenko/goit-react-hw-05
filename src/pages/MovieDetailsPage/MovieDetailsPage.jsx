@@ -12,7 +12,7 @@ const MovieDetailsPage = () => {
 
   const location = useLocation();
 
-  const backLocation = useRef(location.state ?? "/");
+  const backLocation = useRef(location.state ?? "/movies");
   useEffect(() => {
     if (!movieId) return;
     const fetchData = async () => {
