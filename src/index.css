@@ -40,3 +40,8 @@ button {
 img {
   display: block;
 }
+
+a {
+  color: blue;
+  text-decoration: none;
+}

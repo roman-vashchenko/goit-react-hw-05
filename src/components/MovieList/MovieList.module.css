@@ -1,5 +1,10 @@
-.item a {
-  display: block;
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: inline-block;
   color: blue;
   margin-left: 10px;
 }

@@ -4,7 +4,7 @@ const MovieList = ({ movies }) => {
   const location = useLocation();
   return (
     <div>
-      <ul>
+      <ul className={css.list}>
         {movies.map((movie) => (
           <li key={movie.id} className={css.item}>
             <Link to={`/movies/${movie.id}`} state={location}>

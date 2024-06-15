@@ -39,3 +39,9 @@
   border-radius: 5px;
   color: black;
 }
+
+.additionationalInformation {
+  padding-left: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
