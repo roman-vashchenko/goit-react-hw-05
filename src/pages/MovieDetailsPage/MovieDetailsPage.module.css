@@ -41,6 +41,8 @@
 }
 
 .additionationalInformation {
+  display: flex;
+  flex-direction: column;
   padding-left: 10px;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
