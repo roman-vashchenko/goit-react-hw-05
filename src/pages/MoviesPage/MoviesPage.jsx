@@ -7,6 +7,7 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 const MoviesPage = () => {
   const [movies, setMovies] = useState([]);
   const [params, setParams] = useSearchParams();
+  console.log(params.get("query"));
 
   useEffect(() => {
     const fetchData = async () => {
@@ -19,7 +20,7 @@ const MoviesPage = () => {
     };
 
     params.get("query") && fetchData();
-  }, [params]);
+  }, [params.get("query")]);
 
   const hendleSubmit = (value) => {
     params.set("query", value);
